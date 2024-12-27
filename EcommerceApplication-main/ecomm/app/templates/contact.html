@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}About{% endblock %}
+
+{% block banner-slider %}
+
+    <div>
+        <img src="{% static 'images/banner/b4.jpg' %}" class="d-block w-100" alt="banner image">
+    </div>
+   
+{% endblock %}
+
+{% block content %}
+<div class="container mt-3">
+    <br>
+    <h2 class="text-center">Contact Us</h2>
+    <br>
+    <div class="row container">
+        <p class="fs-4 text-center">Address : Neel Diary Products, Palakkad, Kerala</p>
+        <p class="fs-4 text-center">Contact : +91 7902622689 </p>
+        <p class="fs-4 text-center">Email : nproducts@gmail.com</p>
+    </div>
+    <br><br><br>
+</div>
+
+{% endblock %}

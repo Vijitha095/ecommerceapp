@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}About{% endblock %}
+
+{% block banner-slider %}
+
+    <div>
+        <img src="{% static 'images/banner/b3.jpg' %}" class="d-block w-100" alt="banner image">
+     </div>
+      
+
+{% endblock %}
+
+
+{% block content %}
+<div class="container mt-3">
+    <br>
+    <h2 class="text-center">About Us</h2>
+    <br>
+    <div class="row container">
+        <p class="fs-4 text-center">This is a public limited company having its 
+        registered and corporate office at
+        Palakkad District of Kerala State in India. The company has incorporated in 
+        the year
+        2021 and production commenced in 2022. 
+        This is one of the fastest growing Public Listed Companies in Kerala.</p>
+    </div>
+
+    <br><br>
+    <h2 class="text-center">Mission</h2>
+    <br>
+    <div class="row container mb-5">
+        <p class="fs-4 text-center">To embrace the right technology to delight our Customers.
+        Empowering the farmer community through our unique 'Relationship Farming'
+        Model.
+        To anticipate, understand and respond to our Customer's needs by creating 
+        high-quality products and making them available through innovative and 
+        convenient channels
+        </p>
+    </div>
+</div>
+{% endblock %}
